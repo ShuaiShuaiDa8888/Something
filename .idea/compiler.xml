@@ -23,6 +23,8 @@
       <module name="IOUtils_test" target="1.8" />
       <module name="Junit_main" target="1.8" />
       <module name="Junit_test" target="1.8" />
+      <module name="poiFirst_main" target="1.8" />
+      <module name="poiFirst_test" target="1.8" />
     </bytecodeTargetLevel>
   </component>
 </project>

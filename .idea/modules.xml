@@ -8,6 +8,9 @@
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/Junit.iml" filepath="$PROJECT_DIR$/.idea/modules/Junit.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/Junit_main.iml" filepath="$PROJECT_DIR$/.idea/modules/Junit_main.iml" group="Junit" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/Junit_test.iml" filepath="$PROJECT_DIR$/.idea/modules/Junit_test.iml" group="Junit" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/poiFirst.iml" filepath="$PROJECT_DIR$/.idea/modules/poiFirst.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/poiFirst_main.iml" filepath="$PROJECT_DIR$/.idea/modules/poiFirst_main.iml" group="poiFirst" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/poiFirst_test.iml" filepath="$PROJECT_DIR$/.idea/modules/poiFirst_test.iml" group="poiFirst" />
       <module fileurl="file://$PROJECT_DIR$/.idea/something.iml" filepath="$PROJECT_DIR$/.idea/something.iml" />
     </modules>
   </component>
