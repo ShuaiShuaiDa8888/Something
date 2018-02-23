@@ -19,12 +19,16 @@
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="IO_main" target="1.8" />
+      <module name="IO_test" target="1.8" />
       <module name="IOUtils_main" target="1.8" />
       <module name="IOUtils_test" target="1.8" />
       <module name="Junit_main" target="1.8" />
       <module name="Junit_test" target="1.8" />
       <module name="poiFirst_main" target="1.8" />
       <module name="poiFirst_test" target="1.8" />
+      <module name="thread_main" target="1.5" />
+      <module name="thread_test" target="1.5" />
     </bytecodeTargetLevel>
   </component>
 </project>

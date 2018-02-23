@@ -5,6 +5,19 @@
       <GradleProjectSettings>
         <option name="createEmptyContentRootDirectories" value="true" />
         <option name="distributionType" value="LOCAL" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$/IO" />
+        <option name="gradleHome" value="E:/gradle-3.1-all/gradle-3.1" />
+        <option name="gradleJvm" value="1.8" />
+        <option name="modules">
+          <set>
+            <option value="$PROJECT_DIR$/IO" />
+          </set>
+        </option>
+        <option name="useAutoImport" value="true" />
+      </GradleProjectSettings>
+      <GradleProjectSettings>
+        <option name="createEmptyContentRootDirectories" value="true" />
+        <option name="distributionType" value="LOCAL" />
         <option name="externalProjectPath" value="$PROJECT_DIR$/IOUtils" />
         <option name="gradleHome" value="E:/gradle-3.1-all/gradle-3.1" />
         <option name="gradleJvm" value="1.8" />
@@ -37,6 +50,19 @@
         <option name="modules">
           <set>
             <option value="$PROJECT_DIR$/poiFirst" />
+          </set>
+        </option>
+        <option name="useAutoImport" value="true" />
+      </GradleProjectSettings>
+      <GradleProjectSettings>
+        <option name="createEmptyContentRootDirectories" value="true" />
+        <option name="distributionType" value="LOCAL" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$/thread" />
+        <option name="gradleHome" value="E:/gradle-3.1-all/gradle-3.1" />
+        <option name="gradleJvm" value="1.8" />
+        <option name="modules">
+          <set>
+            <option value="$PROJECT_DIR$/thread" />
           </set>
         </option>
         <option name="useAutoImport" value="true" />
