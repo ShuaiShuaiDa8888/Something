@@ -18,19 +18,6 @@
       <GradleProjectSettings>
         <option name="createEmptyContentRootDirectories" value="true" />
         <option name="distributionType" value="LOCAL" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$/IOUtils" />
-        <option name="gradleHome" value="E:/gradle-3.1-all/gradle-3.1" />
-        <option name="gradleJvm" value="1.8" />
-        <option name="modules">
-          <set>
-            <option value="$PROJECT_DIR$/IOUtils" />
-          </set>
-        </option>
-        <option name="useAutoImport" value="true" />
-      </GradleProjectSettings>
-      <GradleProjectSettings>
-        <option name="createEmptyContentRootDirectories" value="true" />
-        <option name="distributionType" value="LOCAL" />
         <option name="externalProjectPath" value="$PROJECT_DIR$/Junit" />
         <option name="gradleHome" value="E:/gradle-3.1-all/gradle-3.1" />
         <option name="gradleJvm" value="1.8" />

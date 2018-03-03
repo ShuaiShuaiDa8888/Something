@@ -6,15 +6,20 @@
         <webroots>
           <root url="file://$MODULE_DIR$/../../IO/src/main/webapp" relative="/" />
         </webroots>
+        <sourceRoots>
+          <root url="file://$MODULE_DIR$/../../IO/src/main/java" />
+          <root url="file://$MODULE_DIR$/../../IO/src/main/resources" />
+        </sourceRoots>
       </configuration>
     </facet>
   </component>
-  <component name="NewModuleRootManager" LANGUAGE_LEVEL="JDK_1_8" inherit-compiler-output="false">
+  <component name="NewModuleRootManager" LANGUAGE_LEVEL="JDK_1_8">
     <output url="file://$MODULE_DIR$/../../IO/build/classes/main" />
     <exclude-output />
     <content url="file://$MODULE_DIR$/../../IO/src/main">
       <sourceFolder url="file://$MODULE_DIR$/../../IO/src/main/java" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/../../IO/src/main/resources" type="java-resource" />
+      <sourceFolder url="file://$MODULE_DIR$/../../IO/src/main" isTestSource="false" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />

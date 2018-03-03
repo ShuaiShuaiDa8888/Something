@@ -1,10 +1,15 @@
 <component name="ArtifactManager">
   <artifact type="exploded-war" name="Gradle : com.test.weishuai : poiFirst-1.0-SNAPSHOT.war (exploded)">
-    <output-path>$PROJECT_DIR$/out/artifacts/poiFirst/exploded/poiFirst-1.0-SNAPSHOT.war</output-path>
+    <output-path>$PROJECT_DIR$/poiFirst/build/libs/exploded/poiFirst-1.0-SNAPSHOT.war</output-path>
     <properties id="gradle-properties">
-      <options external-project-path="$PROJECT_DIR$/poiFirst" />
+      <options external-project-path="$PROJECT_DIR$/poiFirst">
+        <manifest>TWFuaWZlc3QtVmVyc2lvbjogMS4wDQoNCg==</manifest>
+      </options>
     </properties>
     <root id="root">
+      <element id="directory" name="META-INF">
+        <element id="file-copy" path="$PROJECT_DIR$/poiFirst/build/libs/exploded/poiFirst-1.0-SNAPSHOT.war/META-INF/MANIFEST.MF" />
+      </element>
       <element id="javaee-facet-resources" facet="poiFirst_main/web/Web Gradle : poiFirst-1.0-SNAPSHOT.war" />
       <element id="directory" name="WEB-INF">
         <element id="directory" name="classes">
@@ -12,13 +17,10 @@
           <element id="dir-copy" path="$PROJECT_DIR$/poiFirst/build/resources/main" />
         </element>
         <element id="directory" name="lib">
-          <element id="file-copy" path="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.apache.poi/poi/3.15/965bba8899988008bb2341e300347de62aad5391/poi-3.15.jar" />
-          <element id="file-copy" path="$USER_HOME$/.gradle/caches/modules-2/files-2.1/commons-codec/commons-codec/1.10/4b95f4897fa13f2cd904aee711aeafc0c5295cd8/commons-codec-1.10.jar" />
-          <element id="file-copy" path="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.apache.commons/commons-collections4/4.1/a4cf4688fe1c7e3a63aa636cc96d013af537768e/commons-collections4-4.1.jar" />
+          <element id="library" level="project" name="Gradle: org.apache.poi:poi:3.15" />
+          <element id="library" level="project" name="Gradle: commons-codec:commons-codec:1.10" />
+          <element id="library" level="project" name="Gradle: org.apache.commons:commons-collections4:4.1" />
         </element>
-      </element>
-      <element id="directory" name="META-INF">
-        <element id="file-copy" path="$PROJECT_DIR$/out/artifacts/poiFirst/exploded/poiFirst-1.0-SNAPSHOT.war/META-INF/MANIFEST.MF" />
       </element>
     </root>
   </artifact>
