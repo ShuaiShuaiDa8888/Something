@@ -10,7 +10,7 @@ public class CopyIO {
     }
 
     public static void readAndWrite() throws IOException {
-        //定义需要读写的文件
+        //定义需要读写的文件。。
         FileInputStream fileInputStream = new FileInputStream("E:\\weiShuai\\IO\\source.txt");
         FileOutputStream fileOutputStream = new FileOutputStream("E:\\weiShuai\\IO\\target.txt");
         BufferedInputStream bufferedInputStream = new BufferedInputStream(fileInputStream);
