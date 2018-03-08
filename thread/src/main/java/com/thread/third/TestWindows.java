@@ -8,18 +8,21 @@ package com.thread.third;
 class Windows extends Thread {
 
     static int tickets = 100;
+    static Object obj = new Object();
 
     @Override
     public void run() {
         while (true) {
-            System.out.println(Thread.currentThread().getName() + "售票：" + tickets--);
-            try {
-                Thread.sleep(100);
-            } catch (InterruptedException e) {
-                e.printStackTrace();
-            }
-            if (tickets < 1) {
-                break;
+            synchronized (obj) {
+                if (tickets < 1) {
+                    break;
+                }
+                System.out.println(Thread.currentThread().getName() + "售票：" + tickets--);
+                try {
+                    Thread.sleep(10);
+                } catch (InterruptedException e) {
+                    e.printStackTrace();
+                }
             }
         }
     }
@@ -34,9 +37,11 @@ public class TestWindows {
         Windows w01 = new Windows("窗口一");
         Windows w02 = new Windows("窗口二");
         Windows w03 = new Windows("窗口三");
+        Windows w04 = new Windows("窗口四");
 
         w01.start();
         w02.start();
         w03.start();
+        w04.start();
     }
 }
