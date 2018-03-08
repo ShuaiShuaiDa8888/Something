@@ -8,9 +8,9 @@ public class UnSafeThreadTest {
         Aservise aService = new Aservise();
         UnSafeThread unSafeThreadZhang = new UnSafeThread(aService, "张三");
         UnSafeThread unSafeThreadLi = new UnSafeThread(aService, "李四");
+        Thread zhang = new Thread(unSafeThreadZhang);
+        Thread li = new Thread(unSafeThreadLi);
         for (int i = 0; i < 50; i++) {
-            Thread zhang = new Thread(unSafeThreadZhang);
-            Thread li = new Thread(unSafeThreadLi);
             zhang.start();
             li.start();
         }
