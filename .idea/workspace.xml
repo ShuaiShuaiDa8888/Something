@@ -2,21 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c8a6feb4-17c6-476a-91e0-6244122038b9" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/thread/src/main/java/com/thread/forth/TestThreadOfRunnable.java" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/thread/build/classes/main/com/thread/first/Bank.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/thread/build/classes/main/com/thread/first/BankDemo.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/thread/build/classes/main/com/thread/first/Cus.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/thread/build/classes/main/com/thread/second/Aservise.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/thread/build/classes/main/com/thread/second/UnSafeThread.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/thread/build/classes/main/com/thread/second/UnSafeThreadTest.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/thread/src/main/java/com/thread/first/BankDemo.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/thread/src/main/java/com/thread/second/Aservise.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/thread/src/main/java/com/thread/second/UnSafeThread.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/thread/src/main/java/com/thread/second/UnSafeThreadTest.java" afterPath="" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/thread/src/main/java/com/thread/forth/TestWindowsByRunnable.java" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/thread/build/classes/main/com/thread/third/TestThread.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/thread/build/classes/main/com/thread/third/TestWindows.class" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/thread/build/classes/main/com/thread/forth/PrintNum.class" afterPath="$PROJECT_DIR$/thread/build/classes/main/com/thread/forth/PrintNum.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/thread/build/classes/main/com/thread/third/PrintNum.class" afterPath="$PROJECT_DIR$/thread/build/classes/main/com/thread/third/PrintNum.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/thread/build/classes/main/com/thread/third/TestThread.class" afterPath="$PROJECT_DIR$/thread/build/classes/main/com/thread/third/TestThread.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/thread/build/classes/main/com/thread/third/Windows.class" afterPath="$PROJECT_DIR$/thread/build/classes/main/com/thread/third/Windows.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/thread/src/main/java/com/thread/third/TestThread.java" afterPath="$PROJECT_DIR$/thread/src/main/java/com/thread/third/TestThread.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/thread/src/main/java/com/thread/third/TestThread.java" afterPath="$PROJECT_DIR$/thread/src/main/java/com/thread/third/TestThreadOfThread.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/thread/src/main/java/com/thread/third/TestWindows.java" afterPath="$PROJECT_DIR$/thread/src/main/java/com/thread/third/TestWindowsByThread.java" />
     </list>
     <ignored path="something.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -121,11 +115,48 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="TestThreadOfRunnable.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="TestThreadOfThread.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/thread/src/main/java/com/thread/third/TestThreadOfThread.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="425">
+              <caret line="19" column="31" lean-forward="false" selection-start-line="19" selection-start-column="31" selection-end-line="19" selection-end-column="31" />
+              <folding>
+                <element signature="e#318#319#0" expanded="false" />
+                <element signature="e#345#346#0" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="TestWindowsByThread.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/thread/src/main/java/com/thread/third/TestWindowsByThread.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="800">
+              <caret line="34" column="32" lean-forward="false" selection-start-line="34" selection-start-column="32" selection-end-line="34" selection-end-column="32" />
+              <folding>
+                <element signature="e#694#695#0" expanded="false" />
+                <element signature="e#721#722#0" expanded="false" />
+                <marker date="1520555244202" expanded="true" signature="289:644" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="TestThreadOfRunnable.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/thread/src/main/java/com/thread/forth/TestThreadOfRunnable.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="50">
-              <caret line="8" column="36" lean-forward="true" selection-start-line="8" selection-start-column="36" selection-end-line="8" selection-end-column="36" />
+            <state relative-caret-position="200">
+              <caret line="8" column="36" lean-forward="false" selection-start-line="8" selection-start-column="36" selection-end-line="8" selection-end-column="36" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="TestWindowsByRunnable.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/thread/src/main/java/com/thread/forth/TestWindowsByRunnable.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="249">
+              <caret line="28" column="1" lean-forward="true" selection-start-line="28" selection-start-column="1" selection-end-line="28" selection-end-column="1" />
               <folding />
             </state>
           </provider>
@@ -1717,6 +1748,9 @@
         <option value="$PROJECT_DIR$/thread/src/main/java/com/thread/third/TestWindows.java" />
         <option value="$PROJECT_DIR$/thread/src/main/java/com/thread/third/TestThread.java" />
         <option value="$PROJECT_DIR$/thread/src/main/java/com/thread/forth/TestThreadOfRunnable.java" />
+        <option value="$PROJECT_DIR$/thread/src/main/java/com/thread/third/TestWindowsByThread.java" />
+        <option value="$PROJECT_DIR$/thread/src/main/java/com/thread/third/TestThreadOfThread.java" />
+        <option value="$PROJECT_DIR$/thread/src/main/java/com/thread/forth/TestWindowsByRunnable.java" />
       </list>
     </option>
   </component>
@@ -1728,7 +1762,7 @@
   </component>
   <component name="ProjectFrameBounds">
     <option name="x" value="-15" />
-    <option name="y" value="-8" />
+    <option name="y" value="-2" />
     <option name="width" value="1382" />
     <option name="height" value="744" />
   </component>
@@ -1750,7 +1784,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
+      <pane id="Scratches" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -1846,10 +1881,6 @@
               <option name="myItemId" value="thread" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="third" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
@@ -1880,11 +1911,14 @@
               <option name="myItemId" value="thread" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="forth" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
-      <pane id="Scratches" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -1929,23 +1963,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.TestThreadOfRunnable">
-    <configuration default="false" name="IO []" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$/IO" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list />
-        </option>
-        <option name="vmOptions" value="" />
-      </ExternalSystemSettings>
-      <method />
-    </configuration>
+  <component name="RunManager" selected="Application.TestWindowsByRunnable">
     <configuration default="false" name="UnSafeThreadTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
@@ -2014,6 +2032,26 @@
         </pattern>
       </extension>
       <option name="MAIN_CLASS_NAME" value="com.thread.forth.TestThreadOfRunnable" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="thread_main" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="TestWindowsByRunnable" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="com.thread.forth.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="MAIN_CLASS_NAME" value="com.thread.forth.TestWindowsByRunnable" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -2427,19 +2465,19 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Gradle.IO []" />
-      <item index="1" class="java.lang.String" itemvalue="Application.UnSafeThreadTest" />
-      <item index="2" class="java.lang.String" itemvalue="Application.TestThread" />
-      <item index="3" class="java.lang.String" itemvalue="Application.TestWindows" />
-      <item index="4" class="java.lang.String" itemvalue="Application.TestThreadOfRunnable" />
+      <item index="0" class="java.lang.String" itemvalue="Application.UnSafeThreadTest" />
+      <item index="1" class="java.lang.String" itemvalue="Application.TestThread" />
+      <item index="2" class="java.lang.String" itemvalue="Application.TestWindows" />
+      <item index="3" class="java.lang.String" itemvalue="Application.TestThreadOfRunnable" />
+      <item index="4" class="java.lang.String" itemvalue="Application.TestWindowsByRunnable" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Application.TestThreadOfRunnable" />
-        <item index="1" class="java.lang.String" itemvalue="Application.TestThread" />
-        <item index="2" class="java.lang.String" itemvalue="Application.TestWindows" />
-        <item index="3" class="java.lang.String" itemvalue="Application.UnSafeThreadTest" />
-        <item index="4" class="java.lang.String" itemvalue="Gradle.IO []" />
+        <item index="0" class="java.lang.String" itemvalue="Application.TestWindowsByRunnable" />
+        <item index="1" class="java.lang.String" itemvalue="Application.TestThreadOfRunnable" />
+        <item index="2" class="java.lang.String" itemvalue="Application.TestThread" />
+        <item index="3" class="java.lang.String" itemvalue="Application.TestWindows" />
+        <item index="4" class="java.lang.String" itemvalue="Application.UnSafeThreadTest" />
       </list>
     </recent_temporary>
     <configuration default="true" type="AndroidRunConfigurationType" factoryName="Android Application">
@@ -2495,7 +2533,8 @@
       <workItem from="1520468020135" duration="562000" />
       <workItem from="1520513493093" duration="1238000" />
       <workItem from="1520514781671" duration="5048000" />
-      <workItem from="1520551049766" duration="2686000" />
+      <workItem from="1520551049766" duration="3827000" />
+      <workItem from="1520555743990" duration="129000" />
     </task>
     <servers />
   </component>
@@ -2532,7 +2571,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="43295000" />
+    <option name="totallyTimeSpent" value="44565000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -2544,7 +2583,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-15" y="-8" width="1382" height="744" extended-state="0" />
+    <frame x="-15" y="-2" width="1382" height="744" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -2568,7 +2607,7 @@
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32876712" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.8287671" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32876712" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25340393" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25718608" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="true" content_ui="tabs" />
       <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33055976" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
@@ -2629,7 +2668,7 @@
           <option name="timeStamp" value="4" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/thread/src/main/java/com/thread/third/TestWindows.java</url>
+          <url>file://$PROJECT_DIR$/thread/src/main/java/com/thread/third/TestWindowsByThread.java</url>
           <line>36</line>
           <properties />
           <option name="timeStamp" value="5" />
@@ -2644,13 +2683,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Junit/src/main/java/searchVO/StudentSearchVO.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="9" column="28" lean-forward="false" selection-start-line="9" selection-start-column="28" selection-end-line="9" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Junit/src/main/java/model/Student.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -2837,14 +2869,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/thread/src/main/java/com/thread/first/BankDemo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-150">
-          <caret line="5" column="6" lean-forward="false" selection-start-line="5" selection-start-column="6" selection-end-line="5" selection-end-column="6" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/thread/src/main/java/com/thread/first/BankDemo.java" />
     <entry file="file://$PROJECT_DIR$/poiFirst/src/main/java/com/poi/first/ExcelOperate.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1375">
@@ -2866,13 +2891,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/thread/src/main/java/com/thread/second/Aservise.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="125">
-          <caret line="5" column="13" lean-forward="false" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/thread/src/main/java/com/thread/second/Aservise.java" />
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
@@ -2910,53 +2929,54 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/thread/src/main/java/com/thread/second/UnSafeThreadTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="375">
-          <caret line="15" column="9" lean-forward="false" selection-start-line="15" selection-start-column="9" selection-end-line="15" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/thread/src/main/java/com/thread/second/UnSafeThread.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="5" column="40" lean-forward="false" selection-start-line="5" selection-start-column="40" selection-end-line="5" selection-end-column="40" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/thread/src/main/java/com/thread/third/TestThread.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="3" column="3" lean-forward="false" selection-start-line="3" selection-start-column="3" selection-end-line="3" selection-end-column="3" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/thread/src/main/java/com/thread/third/TestWindows.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="9" column="29" lean-forward="true" selection-start-line="9" selection-start-column="29" selection-end-line="9" selection-end-column="29" />
-          <folding>
-            <marker date="1520520954038" expanded="true" signature="289:644" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/thread/src/main/java/com/thread/second/UnSafeThreadTest.java" />
+    <entry file="file://$PROJECT_DIR$/thread/src/main/java/com/thread/second/UnSafeThread.java" />
     <entry file="jar://E:/BigData/Jdk1.8/jdk1.8.0_91/src.zip!/java/lang/Thread.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-3639">
           <caret line="459" column="11" lean-forward="false" selection-start-line="459" selection-start-column="11" selection-end-line="459" selection-end-column="11" />
           <folding>
-            <element signature="e#15480#15481#0" expanded="true" />
-            <element signature="e#15546#15547#0" expanded="true" />
+            <element signature="e#15480#15481#0" expanded="false" />
+            <element signature="e#15546#15547#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/thread/src/main/java/com/thread/third/TestWindowsByThread.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="800">
+          <caret line="34" column="32" lean-forward="false" selection-start-line="34" selection-start-column="32" selection-end-line="34" selection-end-column="32" />
+          <folding>
+            <element signature="e#694#695#0" expanded="false" />
+            <element signature="e#721#722#0" expanded="false" />
+            <marker date="1520555244202" expanded="true" signature="289:644" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/thread/src/main/java/com/thread/third/TestThreadOfThread.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="425">
+          <caret line="19" column="31" lean-forward="false" selection-start-line="19" selection-start-column="31" selection-end-line="19" selection-end-column="31" />
+          <folding>
+            <element signature="e#318#319#0" expanded="false" />
+            <element signature="e#345#346#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/thread/src/main/java/com/thread/forth/TestThreadOfRunnable.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="50">
-          <caret line="8" column="36" lean-forward="true" selection-start-line="8" selection-start-column="36" selection-end-line="8" selection-end-column="36" />
+        <state relative-caret-position="200">
+          <caret line="8" column="36" lean-forward="false" selection-start-line="8" selection-start-column="36" selection-end-line="8" selection-end-column="36" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/thread/src/main/java/com/thread/forth/TestWindowsByRunnable.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="249">
+          <caret line="28" column="1" lean-forward="true" selection-start-line="28" selection-start-column="1" selection-end-line="28" selection-end-column="1" />
           <folding />
         </state>
       </provider>
