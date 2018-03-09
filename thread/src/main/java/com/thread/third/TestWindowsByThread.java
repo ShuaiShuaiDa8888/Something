@@ -32,7 +32,7 @@ class Windows extends Thread {
     }
 }
 
-public class TestWindows {
+public class TestWindowsByThread {
     public static void main(String[] args) {
         Windows w01 = new Windows("窗口一");
         Windows w02 = new Windows("窗口二");

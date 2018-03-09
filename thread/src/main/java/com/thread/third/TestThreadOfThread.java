@@ -17,7 +17,7 @@ class PrintNum extends Thread {
     }
 }
 
-public class TestThread {
+public class TestThreadOfThread {
     public static void main(String[] args) {
         PrintNum pn01 = new PrintNum("线程一：");
         PrintNum pn02 = new PrintNum("线程二：");
