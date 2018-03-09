@@ -1,6 +1,7 @@
 package com.thread.third;
 
-/**
+/**打印两份0——99之间的数据
+ *
  * Created by WS on 2018/3/8.
  */
 class PrintNum extends Thread {
