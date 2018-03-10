@@ -28,7 +28,7 @@ class Windows implements Runnable {
     }
 }
 
-public class TestWindowsByRunnable {
+public class TestWindowsByRunnableOfMethod {
     public static void main(String[] args) {
         Windows windows = new Windows();
 

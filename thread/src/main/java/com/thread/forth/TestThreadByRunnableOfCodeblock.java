@@ -32,7 +32,7 @@ class PrintNum implements Runnable {
     }
 }
 
-public class TestThreadOfRunnable {
+public class TestThreadByRunnableOfCodeblock {
     public static void main(String[] args) {
         PrintNum pn = new PrintNum();   //创建一个Runnable接口实现类的对象
         Thread t1 = new Thread(pn);     //将此对象作为形参传递给Thread类的构造器中，创建Thread类的对象，即线程
