@@ -1,7 +1,7 @@
 package com.thread.third;
 
 /**
- * 继承Thread的方式创建线程，实现卖票
+ * 继承Thread的方式创建线程，实现卖票（锁代码块解决安全问题）
  * <p>
  * Created by WS on 2018/3/8.
  */

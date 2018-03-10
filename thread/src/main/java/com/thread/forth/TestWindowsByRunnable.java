@@ -1,7 +1,7 @@
 package com.thread.forth;
 
 /**
- * 通过实现Runnable的形式完成多窗口售票的功能
+ * 通过实现Runnable的形式完成多窗口售票的功能（锁方法解决安全问题）
  * <p>
  * Created by WS on 2018/3/9.
  */
