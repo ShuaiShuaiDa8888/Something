@@ -5,7 +5,7 @@ package com.thread.forth;
  * <p>
  * Created by WS on 2018/3/9.
  */
-class Windows implements Runnable {
+class WindowsOfMethod implements Runnable {
 
     private int tickets = 100;
 
@@ -30,7 +30,7 @@ class Windows implements Runnable {
 
 public class TestWindowsByRunnableOfMethod {
     public static void main(String[] args) {
-        Windows windows = new Windows();
+        WindowsOfMethod windows = new WindowsOfMethod();
 
         Thread t1 = new Thread(windows);
         t1.setName("窗口一：");
