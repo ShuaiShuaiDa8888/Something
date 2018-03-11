@@ -13,7 +13,7 @@ class Windows extends Thread {
     @Override
     public void run() {
         while (true) {
-            synchronized (obj) {
+            synchronized (obj) {//本demo中，不能使用this对象。四个线程中的this不是同一个对象。所以要new一个相同对象
                 if (tickets < 1) {
                     break;
                 }
