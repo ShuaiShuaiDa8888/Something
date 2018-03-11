@@ -20,7 +20,7 @@ class PrintNum implements Runnable {
                 if (tickets > 0) {
                     System.out.println(Thread.currentThread().getName() + ":" + tickets--);
                     try {
-                        Thread.sleep(10);//让抢到资源的线程睡眠0.01s,下一次不让他抢占锁。避免了一个线程重复抢锁
+                        Thread.sleep(10);//让抢到资源的线程睡眠0.01s,
                     } catch (InterruptedException e) {
                         e.printStackTrace();
                     }
