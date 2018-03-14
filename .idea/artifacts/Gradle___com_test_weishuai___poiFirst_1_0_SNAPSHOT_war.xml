@@ -1,25 +1,11 @@
 <component name="ArtifactManager">
   <artifact type="war" name="Gradle : com.test.weishuai : poiFirst-1.0-SNAPSHOT.war">
-    <output-path>$PROJECT_DIR$/out/artifacts/poiFirst</output-path>
+    <output-path>$PROJECT_DIR$/poiFirst/build/libs</output-path>
     <properties id="gradle-properties">
       <options external-project-path="$PROJECT_DIR$/poiFirst" />
     </properties>
     <root id="archive" name="poiFirst-1.0-SNAPSHOT.war">
-      <element id="javaee-facet-resources" facet="poiFirst_main/web/Web Gradle : poiFirst-1.0-SNAPSHOT.war" />
-      <element id="directory" name="WEB-INF">
-        <element id="directory" name="classes">
-          <element id="module-output" name="poiFirst_main" />
-          <element id="dir-copy" path="$PROJECT_DIR$/poiFirst/build/resources/main" />
-        </element>
-        <element id="directory" name="lib">
-          <element id="file-copy" path="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.apache.poi/poi/3.15/965bba8899988008bb2341e300347de62aad5391/poi-3.15.jar" />
-          <element id="file-copy" path="$USER_HOME$/.gradle/caches/modules-2/files-2.1/commons-codec/commons-codec/1.10/4b95f4897fa13f2cd904aee711aeafc0c5295cd8/commons-codec-1.10.jar" />
-          <element id="file-copy" path="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.apache.commons/commons-collections4/4.1/a4cf4688fe1c7e3a63aa636cc96d013af537768e/commons-collections4-4.1.jar" />
-        </element>
-      </element>
-      <element id="directory" name="META-INF">
-        <element id="file-copy" path="$PROJECT_DIR$/out/artifacts/poiFirst/exploded/poiFirst-1.0-SNAPSHOT.war/META-INF/MANIFEST.MF" />
-      </element>
+      <element id="artifact" artifact-name="Gradle : com.test.weishuai : poiFirst-1.0-SNAPSHOT.war (exploded)" />
     </root>
   </artifact>
 </component>

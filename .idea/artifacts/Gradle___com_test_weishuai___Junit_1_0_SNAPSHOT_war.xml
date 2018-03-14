@@ -1,27 +1,11 @@
 <component name="ArtifactManager">
   <artifact type="war" name="Gradle : com.test.weishuai : Junit-1.0-SNAPSHOT.war">
-    <output-path>$PROJECT_DIR$/out/artifacts/Junit</output-path>
+    <output-path>$PROJECT_DIR$/Junit/build/libs</output-path>
     <properties id="gradle-properties">
       <options external-project-path="$PROJECT_DIR$/Junit" />
     </properties>
     <root id="archive" name="Junit-1.0-SNAPSHOT.war">
-      <element id="javaee-facet-resources" facet="Junit_main/web/Web Gradle : Junit-1.0-SNAPSHOT.war" />
-      <element id="directory" name="WEB-INF">
-        <element id="directory" name="classes">
-          <element id="module-output" name="Junit_main" />
-          <element id="dir-copy" path="$PROJECT_DIR$/Junit/build/resources/main" />
-        </element>
-        <element id="directory" name="lib">
-          <element id="library" level="project" name="Gradle: mysql:mysql-connector-java:6.0.6" />
-          <element id="library" level="project" name="Gradle: commons-lang:commons-lang:2.6" />
-          <element id="library" level="project" name="Gradle: commons-beanutils:commons-beanutils:1.9.3" />
-          <element id="library" level="project" name="Gradle: commons-logging:commons-logging:1.2" />
-          <element id="library" level="project" name="Gradle: commons-collections:commons-collections:3.2.2" />
-        </element>
-      </element>
-      <element id="directory" name="META-INF">
-        <element id="file-copy" path="$PROJECT_DIR$/out/artifacts/Junit/exploded/Junit-1.0-SNAPSHOT.war/META-INF/MANIFEST.MF" />
-      </element>
+      <element id="artifact" artifact-name="Gradle : com.test.weishuai : Junit-1.0-SNAPSHOT.war (exploded)" />
     </root>
   </artifact>
 </component>

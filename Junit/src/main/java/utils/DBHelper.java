@@ -11,10 +11,10 @@ import java.sql.SQLException;
  * Created by weishuai on 2018/2/13.
  */
 public class DBHelper {
-    public static final String url = "jdbc:mysql://127.0.0.1:3306/weishuai?useUnicode=true&amp&characterEncoding=utf-8&serverTimezone=GMT";
+    public static final String url = "jdbc:mysql://127.0.0.1:3306/test?useUnicode=true&amp&characterEncoding=utf-8&serverTimezone=GMT";
     public static final String driver = "com.mysql.jdbc.Driver";
     public static final String user = "root";
-    public static final String password = "123456";
+    public static final String password = "ws199210";
 
     public Connection connection = null;
     public PreparedStatement ps = null;
