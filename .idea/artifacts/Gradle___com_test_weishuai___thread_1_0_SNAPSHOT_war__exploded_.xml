@@ -2,7 +2,9 @@
   <artifact type="exploded-war" name="Gradle : com.test.weishuai : thread-1.0-SNAPSHOT.war (exploded)">
     <output-path>$PROJECT_DIR$/thread/build/libs/exploded/thread-1.0-SNAPSHOT.war</output-path>
     <properties id="gradle-properties">
-      <options external-project-path="$PROJECT_DIR$/thread" />
+      <options external-project-path="$PROJECT_DIR$/thread">
+        <manifest>TWFuaWZlc3QtVmVyc2lvbjogMS4wDQoNCg==</manifest>
+      </options>
     </properties>
     <root id="root">
       <element id="directory" name="META-INF">
