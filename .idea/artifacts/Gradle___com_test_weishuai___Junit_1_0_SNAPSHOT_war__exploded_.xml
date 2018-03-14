@@ -20,8 +20,12 @@
           <element id="library" level="project" name="Gradle: mysql:mysql-connector-java:6.0.6" />
           <element id="library" level="project" name="Gradle: commons-lang:commons-lang:2.6" />
           <element id="library" level="project" name="Gradle: commons-beanutils:commons-beanutils:1.9.3" />
+          <element id="library" level="project" name="Gradle: org.apache.logging.log4j:log4j-1.2-api:2.10.0" />
+          <element id="library" level="project" name="Gradle: log4j:log4j:1.2.17" />
           <element id="library" level="project" name="Gradle: commons-logging:commons-logging:1.2" />
           <element id="library" level="project" name="Gradle: commons-collections:commons-collections:3.2.2" />
+          <element id="library" level="project" name="Gradle: org.apache.logging.log4j:log4j-api:2.10.0" />
+          <element id="library" level="project" name="Gradle: org.apache.logging.log4j:log4j-core:2.10.0" />
         </element>
       </element>
     </root>
