@@ -1,4 +1,4 @@
-package com.thread.first;
+package com.thread.test.first;
 
 /**
  * Created by weishuai on 2018/2/23.
@@ -9,7 +9,7 @@ class Bank {
 
     public void add(int n) {
         sum += n;
-        System.out.println("sum=" + sum);
+        System.out.println(Thread.currentThread().getId()+"sum=" + sum);
     }
 }
 
