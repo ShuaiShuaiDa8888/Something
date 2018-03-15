@@ -1,7 +1,9 @@
 import model.Student;
-import org.apache.log4j.Logger;
+
 import org.junit.Before;
 import org.junit.Test;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 import searchVO.StudentSearchVO;
 import utils.DBHelper;
 
@@ -13,7 +15,7 @@ import java.util.List;
  */
 public class TestOfSelectByJDBC {
 
-    private static Logger logger = Logger.getLogger(TestOfSelectByJDBC.class);
+    private final static Logger logger = LoggerFactory.getLogger(TestOfSelectByJDBC.class);
 
     private DBHelper dbHelper;
     private StudentSearchVO studentSearchVO;
@@ -31,7 +33,11 @@ public class TestOfSelectByJDBC {
         try {
             dbHelper = new DBHelper(sql);
             List<Student> studentList = selectByJDBC.listTable(Student.class, dbHelper, studentSearchVO, sql);
-            logger.info("一般信息");
+            logger.info("info");
+            logger.error("查询条件为：id:"+studentSearchVO.getId()+",name:"+studentSearchVO.getName());
+            if (null == studentList) {
+                logger.error("studentList集合为空");
+            }
             System.out.println(studentList);
         } catch (SQLException e) {
             e.printStackTrace();
