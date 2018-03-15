@@ -2,7 +2,9 @@
   <artifact type="exploded-war" name="Gradle : com.test.weishuai : IO-1.0-SNAPSHOT.war (exploded)">
     <output-path>$PROJECT_DIR$/IO/build/libs/exploded/IO-1.0-SNAPSHOT.war</output-path>
     <properties id="gradle-properties">
-      <options external-project-path="$PROJECT_DIR$/IO" />
+      <options external-project-path="$PROJECT_DIR$/IO">
+        <manifest>TWFuaWZlc3QtVmVyc2lvbjogMS4wDQoNCg==</manifest>
+      </options>
     </properties>
     <root id="root">
       <element id="directory" name="META-INF">
