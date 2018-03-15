@@ -32,6 +32,7 @@ public class TestOfSelectByJDBC {
     public void selectByJDBC() throws Exception {
         try {
             dbHelper = new DBHelper(sql);
+            
             List<Student> studentList = selectByJDBC.listTable(Student.class, dbHelper, studentSearchVO, sql);
             logger.info("info");
             logger.error("查询条件为：id:"+studentSearchVO.getId()+",name:"+studentSearchVO.getName());
