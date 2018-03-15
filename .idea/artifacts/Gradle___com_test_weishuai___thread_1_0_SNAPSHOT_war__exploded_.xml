@@ -1,19 +1,19 @@
 <component name="ArtifactManager">
   <artifact type="exploded-war" name="Gradle : com.test.weishuai : thread-1.0-SNAPSHOT.war (exploded)">
-    <output-path>$PROJECT_DIR$/thread/build/libs/exploded/thread-1.0-SNAPSHOT.war</output-path>
+    <output-path>$PROJECT_DIR$/out/artifacts/thread/exploded/thread-1.0-SNAPSHOT.war</output-path>
     <properties id="gradle-properties">
       <options external-project-path="$PROJECT_DIR$/thread" />
     </properties>
     <root id="root">
-      <element id="directory" name="META-INF">
-        <element id="file-copy" path="$PROJECT_DIR$/thread/build/libs/exploded/thread-1.0-SNAPSHOT.war/META-INF/MANIFEST.MF" />
-      </element>
       <element id="javaee-facet-resources" facet="thread_main/web/Web Gradle : thread-1.0-SNAPSHOT.war" />
       <element id="directory" name="WEB-INF">
         <element id="directory" name="classes">
           <element id="module-output" name="thread_main" />
           <element id="dir-copy" path="$PROJECT_DIR$/thread/build/resources/main" />
         </element>
+      </element>
+      <element id="directory" name="META-INF">
+        <element id="file-copy" path="$PROJECT_DIR$/out/artifacts/thread/exploded/thread-1.0-SNAPSHOT.war/META-INF/MANIFEST.MF" />
       </element>
     </root>
   </artifact>

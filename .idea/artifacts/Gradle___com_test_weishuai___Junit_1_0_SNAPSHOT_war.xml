@@ -1,11 +1,31 @@
 <component name="ArtifactManager">
   <artifact type="war" name="Gradle : com.test.weishuai : Junit-1.0-SNAPSHOT.war">
-    <output-path>$PROJECT_DIR$/Junit/build/libs</output-path>
+    <output-path>$PROJECT_DIR$/out/artifacts/Junit</output-path>
     <properties id="gradle-properties">
       <options external-project-path="$PROJECT_DIR$/Junit" />
     </properties>
     <root id="archive" name="Junit-1.0-SNAPSHOT.war">
-      <element id="artifact" artifact-name="Gradle : com.test.weishuai : Junit-1.0-SNAPSHOT.war (exploded)" />
+      <element id="javaee-facet-resources" facet="Junit_main/web/Web Gradle : Junit-1.0-SNAPSHOT.war" />
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="Junit_main" />
+          <element id="dir-copy" path="$PROJECT_DIR$/Junit/build/resources/main" />
+        </element>
+        <element id="directory" name="lib">
+          <element id="library" level="project" name="Gradle: mysql:mysql-connector-java:6.0.6" />
+          <element id="library" level="project" name="Gradle: commons-lang:commons-lang:2.6" />
+          <element id="library" level="project" name="Gradle: commons-beanutils:commons-beanutils:1.9.3" />
+          <element id="library" level="project" name="Gradle: commons-logging:commons-logging:1.2" />
+          <element id="library" level="project" name="Gradle: commons-collections:commons-collections:3.2.2" />
+          <element id="file-copy" path="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.apache.logging.log4j/log4j-1.2-api/2.10.0/62e26af2612d1bd03aba1c7c087447f14033b7ba/log4j-1.2-api-2.10.0.jar" />
+          <element id="file-copy" path="$USER_HOME$/.gradle/caches/modules-2/files-2.1/log4j/log4j/1.2.17/5af35056b4d257e4b64b9e8069c0746e8b08629f/log4j-1.2.17.jar" />
+          <element id="file-copy" path="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.apache.logging.log4j/log4j-api/2.10.0/fec5797a55b786184a537abd39c3fa1449d752d6/log4j-api-2.10.0.jar" />
+          <element id="file-copy" path="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.apache.logging.log4j/log4j-core/2.10.0/c90b597163cd28ab6d9687edd53db601b6ea75a1/log4j-core-2.10.0.jar" />
+        </element>
+      </element>
+      <element id="directory" name="META-INF">
+        <element id="file-copy" path="$PROJECT_DIR$/out/artifacts/Junit/exploded/Junit-1.0-SNAPSHOT.war/META-INF/MANIFEST.MF" />
+      </element>
     </root>
   </artifact>
 </component>
